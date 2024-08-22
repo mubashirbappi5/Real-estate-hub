@@ -33,7 +33,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
-              primary:'#ABEF5F',
+              primary: "#ABEF5F",
             },
             fontFamily: {
               manrope: "Manrope",
@@ -42,30 +42,44 @@
         },
       };
     </script>
-  </head>
-  <body class="font-manrope">
-    <header class="max-w-screen-lg mx-auto">
+  </head> 
+  <body class="font-manrope bg-gradient-to-t from-white to-slate-50">
+    <header class="max-w-screen-lg mx-auto mb-20 ">
       <nav>
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-transparent">
           <div class="navbar-start">
-            
-            <a class="btn btn-ghost text-3xl font-extrabold"> <i class="fa-solid  fa-arrow-right  text-[#1C1C1C] bg-primary p-2 rounded-full -rotate-45"></i>Rinterio</a>
+            <a class="btn btn-ghost text-3xl font-extrabold">
+              <i
+                class="fa-solid fa-arrow-right text-[#1C1C1C] bg-primary p-2 rounded-full -rotate-45"
+              ></i
+              >Rinterio</a
+            >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal mr-10 px-1 gap-2 text-[#737373]">
               <li><a class="font-extrabold text-black">Home</a></li>
               <li><a>Services</a></li>
-              <li><a>Portfolio</a></li> 
+              <li><a>Portfolio</a></li>
               <li><a>Blogs</a></li>
               <li><a>Contact Us</a></li>
             </ul>
           </div>
-          <div class="navbar-end ">
-            <i class=" fa-solid fa-magnifying-glass mr-5 bg-white rounded-full p-2 shadow-sm md:flex hidden "></i>
-            <i class="fa-solid fa-cart-shopping mr-5 bg-white rounded-full p-2 shadow-sm md:flex hidden "></i>
-            <a class="btn bg-primary rounded-[32px] font-extrabold md:flex hidden">Book Consult <i class="fa-solid  fa-arrow-right  text-primary bg-black p-2 rounded-full -rotate-45"></i></a>
-            <div class="dropdown  dropdown-end lg:hidden">
-              <div tabindex="0" role="button" class="btn btn-ghost  ">
+          <div class="navbar-end">
+            <i
+              class="fa-solid fa-magnifying-glass mr-5 bg-white rounded-full p-2 shadow-md md:flex hidden"
+            ></i>
+            <i
+              class="fa-solid fa-cart-shopping mr-5 bg-white rounded-full p-2 shadow-md md:flex hidden"
+            ></i>
+            <a
+              class="btn bg-primary rounded-[32px] font-extrabold md:flex hidden"
+              >Book Consult
+              <i
+                class="fa-solid fa-arrow-right text-primary bg-black p-2 rounded-full -rotate-45"
+              ></i
+            ></a>
+            <div class="dropdown dropdown-end lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -95,6 +109,28 @@
           </div>
         </div>
       </nav>
+      <!-- banner section -->
+       <section class="flex flex-col justify-center items-center px-4 md:px-8 mt-6">
+        <div>
+          <img src="assets/banner.png" alt="">
+        
+        </div>
+        <div class="text-center ">
+          <h1 class=" md:text-5xl text-3xl font-extrabold mt-4">A barn house of this design has a striking appearance</h1>
+          <p class="font-medium text-[#494949] mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+         <div class="max-w-48 mx-auto mt-7">
+          <a
+          class="btn bg-[#ABEF5F80] rounded-[32px] font-extrabold"
+          >View Details
+          <i
+            class="fa-solid fa-arrow-right text-black bg-primary p-2 rounded-full -rotate-45"
+          ></i
+        ></a>
+         </div>
+ 
+        </div>
+
+       </section>
     </header>
     <main></main>
     <footer></footer>
