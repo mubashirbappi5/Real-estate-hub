@@ -34,6 +34,9 @@
             colors: {
               clifford: "#da373d",
               primary: "#ABEF5F",
+              'dark-1':'#212121',
+              'dark-2':'#494949',
+              'dark-3':'#737373'
             },
             fontFamily: {
               manrope: "Manrope",
@@ -43,8 +46,8 @@
       };
     </script>
   </head> 
-  <body class="font-manrope bg-gradient-to-t from-white to-slate-50">
-    <header class="max-w-screen-lg mx-auto mb-20 ">
+  <body class="font-manrope bg-slate-50">
+    <header class="max-w-screen-lg mx-auto pb-20 bg-white ">
       <nav>
         <div class="navbar bg-transparent">
           <div class="navbar-start">
@@ -99,11 +102,11 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
-                <li><a>Item 1</a></li>
-                <li><a>Item 1</a></li>
-                <li><a>Item 1</a></li>
-                <li><a>Item 1</a></li>
-                <li><a>Item 3</a></li>
+              <li><a class="font-extrabold text-black">Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
               </ul>
             </div>
           </div>
@@ -118,9 +121,9 @@
         <div class="text-center ">
           <h1 class=" md:text-5xl text-3xl font-extrabold mt-4">A barn house of this design has a striking appearance</h1>
           <p class="font-medium text-[#494949] mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
-         <div class="max-w-48 mx-auto mt-7">
+         <div class=" md:w-48 mx-auto mt-7">
           <a
-          class="btn bg-[#ABEF5F80] rounded-[32px] font-extrabold"
+          class="btn bg-[#ABEF5F80] rounded-[32px] font-extrabold w-full"
           >View Details
           <i
             class="fa-solid fa-arrow-right text-black bg-primary p-2 rounded-full -rotate-45"
@@ -132,7 +135,61 @@
 
        </section>
     </header>
-    <main></main>
+    <main class="max-w-screen-lg mx-auto  lg:py-20 py-14 bg-slate-50">
+      <section class="relative">
+        <!-- vactor -->
+        <div class=" hidden lg:flex absolute -top-14 -left-10">
+          <img src="assets/Vector.png" alt="">
+        </div>
+        <!--  design thoughtful -->
+          <div class=" grid grid-cols-1 md:grid-cols-2 gap-9 items-center">
+            <!-- left site -->
+             <div class="space-y-3">
+              <div class="space-y-3 text-center lg:text-left">
+                <button class="btn rounded-3xl px-7 bg-[#FFFFFF] text-dark-2 font-bold"><i class="fa-solid fa-arrow-right"></i>About Us</button>
+              <h1 class="text-4xl text-dark-1 font-bold">We design thoughtful, liveable spaces</h1>
+              <p class="font-medium text-dark-2 ">Building design is the art of creating functional, aesthetically pleasing spaces that harmonize with their environment, enhancing daily life. Thoughtful design .</p>
+              </div>
+              <div class="p-4  bg-white rounded-2xl flex items-center gap-3 shadow-sm">
+                <div>
+                  <img src="assets/commercial.png" alt="">
+
+                </div>
+
+                <div class="space-y-2">
+                  <h5 class="text-xl font-extrabold text-dark-2">Commercial</h5>
+                  <p class="font-medium text-dark-3">Commercial buildings blend  functionality with <br> aesthetic appeal for businesses.</p>
+
+                </div>
+
+              </div>
+              <div class="p-4  bg-white rounded-2xl flex items-center gap-3 shadow-sm">
+                <div>
+                  <img src="assets/commercial.png" alt="">
+
+                </div>
+
+                <div class="space-y-2">
+                  <h5 class="text-xl font-extrabold text-dark-2">Commercial</h5>
+                  <p class="font-medium text-dark-3">Commercial buildings blend  functionality with <br> aesthetic appeal for businesses.</p>
+
+                </div>
+
+              </div>
+             
+
+             </div>
+             <!-- right side -->
+              <div class="">
+                <img src="assets/Rectangle.png" alt="">
+
+              </div>
+          </div>
+
+      </section>
+
+
+    </main>
     <footer></footer>
   </body>
 </html>
