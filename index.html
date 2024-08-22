@@ -34,9 +34,9 @@
             colors: {
               clifford: "#da373d",
               primary: "#ABEF5F",
-              'dark-1':'#212121',
-              'dark-2':'#494949',
-              'dark-3':'#737373'
+              "dark-1": "#212121",
+              "dark-2": "#494949",
+              "dark-3": "#737373",
             },
             fontFamily: {
               manrope: "Manrope",
@@ -45,211 +45,307 @@
         },
       };
     </script>
-  </head> 
+  </head>
   <body class="font-manrope bg-slate-100">
-    <header class=" bg-white ">
-    <div class="max-w-screen-lg mx-auto pb-20">
-      <nav>
-        <div class="navbar bg-transparent">
-          <div class="navbar-start">
-            <a class="btn btn-ghost text-3xl font-extrabold">
-              <i
-                class="fa-solid fa-arrow-right text-[#1C1C1C] bg-primary p-2 rounded-full -rotate-45"
-              ></i
-              >Rinterio</a
-            >
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal mr-10 px-1 gap-2 text-[#737373]">
-              <li><a class="font-extrabold text-black">Home</a></li>
-              <li><a>Services</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Blogs</a></li>
-              <li><a>Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="navbar-end">
-            <i
-              class="fa-solid fa-magnifying-glass mr-5 bg-white rounded-full p-2 shadow-md md:flex hidden"
-            ></i>
-            <i
-              class="fa-solid fa-cart-shopping mr-5 bg-white rounded-full p-2 shadow-md md:flex hidden"
-            ></i>
-            <a
-              class="btn bg-primary rounded-[32px] font-extrabold md:flex hidden"
-              >Book Consult
-              <i
-                class="fa-solid fa-arrow-right text-primary bg-black p-2 rounded-full -rotate-45"
-              ></i
-            ></a>
-            <div class="dropdown dropdown-end lg:hidden">
-              <div tabindex="0" role="button" class="btn btn-ghost">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+    <header class="bg-white">
+      <div class="max-w-screen-lg mx-auto pb-20">
+        <nav>
+          <div class="navbar bg-transparent">
+            <div class="navbar-start">
+              <a class="btn btn-ghost text-3xl font-extrabold">
+                <i
+                  class="fa-solid fa-arrow-right text-[#1C1C1C] bg-primary p-2 rounded-full -rotate-45"
+                ></i
+                >Rinterio</a
               >
-              <li><a class="font-extrabold text-black">Home</a></li>
-              <li><a>Services</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Blogs</a></li>
-              <li><a>Contact Us</a></li>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal mr-10 px-1 gap-2 text-[#737373]">
+                <li><a class="font-extrabold text-black">Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
               </ul>
             </div>
+            <div class="navbar-end">
+              <i
+                class="fa-solid fa-magnifying-glass mr-5 bg-white rounded-full p-2 shadow-md md:flex hidden"
+              ></i>
+              <i
+                class="fa-solid fa-cart-shopping mr-5 bg-white rounded-full p-2 shadow-md md:flex hidden"
+              ></i>
+              <a
+                class="btn bg-primary rounded-[32px] font-extrabold md:flex hidden"
+                >Book Consult
+                <i
+                  class="fa-solid fa-arrow-right text-primary bg-black p-2 rounded-full -rotate-45"
+                ></i
+              ></a>
+              <div class="dropdown dropdown-end lg:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                >
+                  <li><a class="font-extrabold text-black">Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
-      </nav>
-      <!-- banner section -->
-       <section class="flex flex-col justify-center items-center px-4 md:px-8 mt-6">
-        <div>
-          <img src="assets/banner.png" alt="">
-        
-        </div>
-        <div class="text-center ">
-          <h1 class=" md:text-5xl text-3xl font-extrabold mt-4">A barn house of this design has a striking appearance</h1>
-          <p class="font-medium text-[#494949] mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
-         <div class=" md:w-48 mx-auto mt-7">
-          <a
-          class="btn bg-[#ABEF5F80] rounded-[32px] font-extrabold w-full"
-          >View Details
-          <i
-            class="fa-solid fa-arrow-right text-black bg-primary p-2 rounded-full -rotate-45"
-          ></i
-        ></a>
-         </div>
- 
-        </div>
-
-       </section>
-    </div>
+        </nav>
+        <!-- banner section -->
+        <section
+          class="flex flex-col justify-center items-center px-4 md:px-8 mt-6"
+        >
+          <div>
+            <img src="assets/banner.png" alt="" />
+          </div>
+          <div class="text-center">
+            <h1 class="md:text-5xl text-3xl font-extrabold mt-4">
+              A barn house of this design has a striking appearance
+            </h1>
+            <p class="font-medium text-[#494949] mt-4">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              <br />
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <div class="md:w-48 mx-auto mt-7">
+              <a class="btn bg-[#ABEF5F80] rounded-[32px] font-extrabold w-full"
+                >View Details
+                <i
+                  class="fa-solid fa-arrow-right text-black bg-primary p-2 rounded-full -rotate-45"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
     </header>
-    <main class="max-w-screen-lg mx-auto  lg:py-20 py-14">
-      <section class="relative">
+    <main class="lg:py-20 py-14">
+      <section class="relative max-w-screen-lg mx-auto">
         <!-- vactor -->
-        <div class=" hidden lg:flex absolute -top-14 -left-10">
-          <img src="assets/Vector.png" alt="">
+        <div class="hidden lg:flex absolute -top-14 -left-10">
+          <img src="assets/Vector.png" alt="" />
         </div>
         <!--  design thoughtful -->
-          <div class=" grid grid-cols-1 md:grid-cols-2 gap-9 items-center">
-            <!-- left site -->
-             <div class="space-y-3">
-              <div class="space-y-3 text-center lg:text-left">
-                <button class="btn rounded-3xl px-7 bg-[#FFFFFF] text-dark-2 font-bold"><i class="fa-solid fa-arrow-right"></i>About Us</button>
-              <h1 class="text-4xl text-dark-1 font-bold">We design thoughtful, liveable spaces</h1>
-              <p class="font-medium text-dark-2 ">Building design is the art of creating functional, aesthetically pleasing spaces that harmonize with their environment, enhancing daily life. Thoughtful design .</p>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-9 items-center px-4 lg:px-0"
+        >
+          <!-- left site -->
+          <div class="space-y-3">
+            <div class="space-y-3 text-center lg:text-left">
+              <button
+                class="btn rounded-3xl px-7 bg-[#FFFFFF] text-dark-2 font-bold"
+              >
+                <i class="fa-solid fa-arrow-right"></i>About Us
+              </button>
+              <h1 class="text-4xl text-dark-1 font-bold">
+                We design thoughtful, liveable spaces
+              </h1>
+              <p class="font-medium text-dark-2">
+                Building design is the art of creating functional, aesthetically
+                pleasing spaces that harmonize with their environment, enhancing
+                daily life. Thoughtful design .
+              </p>
+            </div>
+            <div
+              class="p-4 bg-white rounded-2xl flex items-center gap-3 shadow-sm"
+            >
+              <div>
+                <img class="h-14 w-14" src="assets/commercial.png" alt="" />
               </div>
-              <div class="p-4  bg-white rounded-2xl flex items-center gap-3 shadow-sm">
-                <div>
-                  <img class="h-14 w-14" src="assets/commercial.png" alt="">
 
-                </div>
-
-                <div class="space-y-2">
-                  <h5 class="text-xl font-extrabold text-dark-2">Commercial</h5>
-                  <p class="font-medium text-dark-3">Commercial buildings blend  functionality with <br> aesthetic appeal for businesses.</p>
-
-                </div>
-
+              <div class="space-y-2">
+                <h5 class="text-xl font-extrabold text-dark-2">Commercial</h5>
+                <p class="font-medium text-dark-3">
+                  Commercial buildings blend functionality with <br />
+                  aesthetic appeal for businesses.
+                </p>
               </div>
-              <div class="p-4  bg-white rounded-2xl flex items-center gap-3 shadow-sm">
-                <div>
-                  <img  src="assets/residential.png" alt="">
-
-                </div>
-
-                <div class="space-y-2">
-                  <h5 class="text-xl font-extrabold text-dark-2">Residential</h5>
-                  <p class="font-medium text-dark-3">Residential buildings provide comfortable, functional  spaces for everyday living.</p>
-
-                </div>
-
+            </div>
+            <div
+              class="p-4 bg-white rounded-2xl flex items-center gap-3 shadow-sm"
+            >
+              <div>
+                <img src="assets/residential.png" alt="" />
               </div>
-             
 
-             </div>
-             <!-- right side -->
-              <div class="">
-                <img src="assets/Rectangle.png" alt="">
-
+              <div class="space-y-2">
+                <h5 class="text-xl font-extrabold text-dark-2">Residential</h5>
+                <p class="font-medium text-dark-3">
+                  Residential buildings provide comfortable, functional spaces
+                  for everyday living.
+                </p>
               </div>
+            </div>
           </div>
-
+          <!-- right side -->
+          <div class=" ">
+            <img src="assets/Rectangle.png" alt="" />
+          </div>
+        </div>
       </section>
-      <section class="py-8 my-24  mx-4 md:mx-0  grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4  rounded-2xl bg-white">
+      <section
+        class="max-w-screen-lg mx-auto py-8 my-24 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 rounded-2xl bg-white"
+      >
         <!-- client review list -->
-        <div class="text-center space-y-1">
+        <div class="text-center mx-4 md:mx-0 space-y-1">
           <i class="fa-regular fa-message text-3xl text-dark-2"></i>
           <h1 class="text-4xl font-extrabold text-dark-1">235+</h1>
-          <p class=" text-dark-3 font-medium ">Happy Client Review</p>
-
-         </div>
-         <div class="text-center space-y-1">
+          <p class="text-dark-3 font-medium">Happy Client Review</p>
+        </div>
+        <div class="text-center space-y-1">
           <i class="fa-regular fa-building text-3xl text-dark-2"></i>
-          <h1 class="text-4xl font-extrabold  text-dark-1">50+</h1>
+          <h1 class="text-4xl font-extrabold text-dark-1">50+</h1>
           <p class="text-dark-3 font-medium">Work Departments</p>
-
-         </div>
-         <div class="text-center space-y-1">
+        </div>
+        <div class="text-center space-y-1">
           <i class="fa-solid fa-users text-3xl text-dark-2"></i>
-          <h1 class="text-4xl font-extrabold  text-dark-1">30k+</h1>
+          <h1 class="text-4xl font-extrabold text-dark-1">30k+</h1>
           <p class="text-dark-3 font-medium">Our Happy Client</p>
-
-         </div>
-         <div class="text-center space-y-1">
+        </div>
+        <div class="text-center space-y-1">
           <i class="fa-solid fa-users text-3xl text-dark-2"></i>
-          <h1 class="text-4xl font-extrabold  text-dark-1">307+</h1>
+          <h1 class="text-4xl font-extrabold text-dark-1">307+</h1>
           <p class="text-dark-3 font-medium">Staff Members</p>
-
-         </div>
+        </div>
       </section>
-      <section class="lg:px-0 px-4">
+      <section class="max-w-screen-lg mx-auto lg:px-0 px-4">
         <!-- Works-Process-section -->
-         <div class="text-center space-y-5">
-          <button class="btn rounded-3xl px-7 bg-[#FFFFFF] text-dark-2 font-bold"><i class="fa-solid fa-arrow-right"></i>How we works</button>
+        <div class="text-center space-y-5">
+          <button
+            class="btn rounded-3xl px-7 bg-[#FFFFFF] text-dark-2 font-bold"
+          >
+            <i class="fa-solid fa-arrow-right"></i>How we works
+          </button>
           <h1 class="text-4xl font-bold text-dark-1">Our Works Process</h1>
-          <p class="text-dark-2 font-medium"> we understand the importance of a well-structured and efficient work environment. <br> Our process begins with a comprehensive analysis  </p>
-         </div>
-         <!-- process card -->
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+          <p class="text-dark-2 font-medium">
+            we understand the importance of a well-structured and efficient work
+            environment. <br />
+            Our process begins with a comprehensive analysis
+          </p>
+        </div>
+        <!-- process card -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
           <div class="p-6 bg-[#E7C1D3] rounded-2xl space-y-2">
-            <img src="assets/concept.png" alt="">
+            <img src="assets/concept.png" alt="" />
             <h4 class="text-dark-1 text-xl font-extrabold">Concept</h4>
-            <p class="font-medium text-dark-2">Our concept for building your  department's workspace revolves  </p>
+            <p class="font-medium text-dark-2">
+              Our concept for building your department's workspace revolves
+            </p>
           </div>
           <div class="p-6 bg-[#EFDA6E] rounded-2xl space-y-2">
-            <img src="assets/flow-chart.png" alt="">
+            <img src="assets/flow-chart.png" alt="" />
             <h4 class="text-dark-1 text-xl font-extrabold">Design Process</h4>
-            <p class="font-medium text-dark-2">Our design process begins with a deep dive into your department</p>
+            <p class="font-medium text-dark-2">
+              Our design process begins with a deep dive into your department
+            </p>
           </div>
           <div class="p-6 bg-[#A4DAC3] rounded-2xl space-y-2">
-            <img src="assets/vision.png" alt="">
+            <img src="assets/vision.png" alt="" />
             <h4 class="text-dark-1 text-xl font-extrabold">Supervision</h4>
-            <p class="font-medium text-dark-2">Our supervision process ensures that every phase of construction  </p>
+            <p class="font-medium text-dark-2">
+              Our supervision process ensures that every phase of construction
+            </p>
           </div>
           <div class="p-6 bg-[#77AAEA] rounded-2xl space-y-2">
-            <img src="assets/budget-planning.png" alt="">
+            <img src="assets/budget-planning.png" alt="" />
             <h4 class="text-dark-1 text-xl font-extrabold">Budget Planning</h4>
-            <p class="font-medium text-dark-2">Effective budget planning is the cornerstone of our p-management approach. </p>
+            <p class="font-medium text-dark-2">
+              Effective budget planning is the cornerstone of our p-management
+              approach.
+            </p>
           </div>
-
-         </div>
+        </div>
       </section>
+      <!-- Our Latest Portfolio (challange part) -->
+      <section class="bg-white py-24 my-24">
+        <div class="max-w-screen-lg mx-auto">
+          <div class="text-center space-y-5">
+            <button
+              class="btn rounded-3xl px-7 bg-[#ABEF5F33] text-dark-2 font-bold"
+            >
+              <i class="fa-solid fa-arrow-right"></i>Explore our Latest works
+            </button>
+            <h1 class="text-4xl font-bold text-dark-1">Our Latest Portfolio</h1>
+            <p class="text-dark-2 font-medium">
+              we understand the importance of a well-structured and efficient
+              work environment. <br />
+              Our process begins with a comprehensive analysis
+            </p>
+          </div>
+          <!-- portfolio grid -->
+          <div class="grid grid-cols-1 md:grid-cols-8 gap-6 ">
+          <div class="flex flex-col justify-center md:flex-row gap-4 md:items-center md:col-span-5 p-6 bg-white border border-1 rounded-2xl shadow-sm">
+            <img src="assets/img1.png" alt="">
+            <div class="space-y-4"> 
 
+              <h4 class="font-extrabold  text-dark-2 text-xl">Commercial</h4>
+              <p class="text-dark-3 font-medium">Our expertise in commercial building projects ensures that your workspace is designed to drive business success. </p>
+              <button
+            class=" rounded-3xl   text-dark-2 font-bold"
+          >
+          View Details <i class="fa-solid fa-arrow-right bg-primary p-2 rounded-full -rotate-45"></i>
+          </button>
+            </div>
+            
+            
 
+          </div>
+          <div class="md:col-span-3 p-6 bg-white border border-1 shadow-sm rounded-2xl">
+            <img class="mx-auto" src="assets/img2.png" alt="">
+
+          </div>
+          <div class=" md:col-span-2  p-6 bg-white border border-1 shadow-sm rounded-2xl">
+            <img class="mx-auto" src="assets/img3.png" alt="">
+
+          </div>
+          <div class="flex md:flex-row flex-col justify-center gap-4 md:items-center  md:col-span-4 p-4 bg-white border border-1 rounded-2xl shadow-sm">
+            <img src="assets/img4.png" alt="">
+            <div class="space-y-2"> 
+
+              <h4 class="font-extrabold  text-dark-2 text-xl">Commercial</h4>
+              <p class="text-dark-3 font-medium">Our expertise in commercial building projects ensures  </p>
+              <button
+            class=" rounded-3xl   text-dark-2 font-bold"
+          >
+          View Details <i class="fa-solid fa-arrow-right bg-primary p-2 rounded-full -rotate-45"></i>
+          </button>
+            </div>
+            
+            
+
+          </div>
+          <div class=" md:col-span-2  p-6 bg-white border border-1 shadow-sm rounded-2xl">
+            <img class="mx-auto" src="assets/img5.png" alt="">
+
+          </div>
+         
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
